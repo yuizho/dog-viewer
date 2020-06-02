@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { Redirect, Route, Switch } from "react-router";
 import "./App.css";
 import Home from "./components/Home";
-import Dogs from "./components/Dogs";
+import Dogs from "./containers/Dogs";
 
 const title = "dog viewer";
 
@@ -15,6 +15,7 @@ const App: FC = () => (
 
     <header>
       <h1>{title}</h1>
+      <br />
     </header>
     <Switch>
       <Route path="/" exact component={Home} />

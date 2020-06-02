@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { Link } from "react-router-dom";
 import { List } from "semantic-ui-react";
 
-const types = ["akita", "pomeranian"];
+const types = ["akita", "pomeranian", "husky", "chihuahua", "terrier-norwich"];
 
 const Home: FC = () => (
   <>
